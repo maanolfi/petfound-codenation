@@ -1,0 +1,13 @@
+export const CREATE_USER = 'CREATE_USER'
+
+export const SUCCESS_CREATE_USER = 'SUCCESS_CREATE_USER'
+
+export const FAILED_CREATE_USER = 'FAILED_CREATE_USER'
+
+export const LOGIN = 'LOGIN'
+
+export const SUCCESS_LOGIN = 'SUCCESS_LOGIN'
+
+export const FAILED_LOGIN = 'FAILED_LOGIN'
+
+export const LOGOUT = 'LOGOUT'

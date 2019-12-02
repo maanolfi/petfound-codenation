@@ -1,0 +1,40 @@
+// Variables
+//
+// Variables should follow the `$component-state-property-size` formula for
+// consistent naming. Ex: $nav-link-disabled-color and $modal-content-box-shadow-xs.
+
+
+// Color system
+$success: #2ee559;
+$secondary: #818385;
+$blue: #0028ED;
+$indigo: #6415C8;
+$yellow: #FBBD00;
+$google: #ffffff;
+
+
+// Body
+//
+// Settings for the `<body>` element.
+
+// $body-bg:                   $white !default;
+$body-color: $secondary;
+
+
+// Typography
+//
+// Font, line-height, and color for body text, headings, and more.
+
+// stylelint-disable value-keyword-case
+$font-family-sans-serif: Lato, BlinkMacSystemFont, "Lato", Roboto;
+$headings-font-family: 'Work Sans', sans-serif;
+$font-family-base:            $font-family-sans-serif !default;
+// stylelint-enable value-keyword-case
+
+$font-size-base:              1rem !default; // Assumes the browser default, typically `16px`
+$font-size-lg:                $font-size-base * 1.25 !default;
+$font-size-sm:                $font-size-base * .875 !default;
+
+$font-weight-bold:            600;
+
+$headings-color:              $black;
